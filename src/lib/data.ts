@@ -20,7 +20,7 @@ export type ChargingProfileDetailData = ChargingProfileData & {
 export const mockProfiles: ChargingProfileDetailData[] = [
     {
         id: '1',
-        timestamp: '2024-01-15 14:30:25 CET',
+        timestamp: '2024-01-15 14:30:25',
         soc: 85,
         profileName: 'Profile Sent At (CET)',
         cpoStatus: 'ACCEPTED',
@@ -44,7 +44,7 @@ export const mockProfiles: ChargingProfileDetailData[] = [
     },
     {
         id: '2',
-        timestamp: '2024-01-15 12:15:40 CET',
+        timestamp: '2024-01-15 12:15:40',
         soc: 72,
         profileName: 'Profile Sent At (CET)',
         cpoStatus: 'ACCEPTED',
@@ -66,7 +66,7 @@ export const mockProfiles: ChargingProfileDetailData[] = [
     },
     {
         id: '3',
-        timestamp: '2024-01-15 09:45:12 CET',
+        timestamp: '2024-01-15 09:45:12',
         soc: 95,
         profileName: 'Profile Sent At (CET)',
         cpoStatus: 'COMPLETED',
